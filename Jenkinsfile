@@ -5,7 +5,7 @@ pipeline{
       steps{
         nodejs('Node'){
           echo 'Building Application.....'
-          bat 'npm install'
+          sh 'npm install'
         }
       }
     }
